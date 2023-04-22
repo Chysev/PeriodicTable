@@ -1,0 +1,13 @@
+.none {
+  display: none;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.justifytext {
+  text-align: center;
+}
