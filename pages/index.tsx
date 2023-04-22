@@ -2,7 +2,7 @@
 // Component
 import LandingPage from "@/components/LandingPage/LandingPage"
 
-const URL = 'https://periodictable.vercel.app/api/datas'
+const URL = 'https://periodictablechydev.vercel.app/api/datas'
 
 export async function getServerSideProps() {
   const response = await fetch(URL)
